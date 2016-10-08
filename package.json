@@ -1,0 +1,11 @@
+{
+  "name": "kiu",
+  "version": "0.0.1",
+  "description": "A queue manager library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Omid Hezaveh",
+  "license": "MIT"
+}
