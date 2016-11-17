@@ -4,11 +4,18 @@
   "description": "A queue manager library",
   "main": "index.js",
   "scripts": {
+    "babel-node": "babel-node --presets=es2015 --ignore='node_modules'",
+    "start": "nodemon --exec npm run babel-node -- index.js",
     "test": "test"
   },
   "author": "Omid Hezaveh",
   "license": "MIT",
   "dependencies": {
-    "asyncawait": "^1.0.6"
+    "babel-plugin-transform-async-to-generator": "^6.16.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0"
   }
 }
